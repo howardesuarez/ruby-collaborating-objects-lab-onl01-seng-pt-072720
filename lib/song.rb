@@ -24,5 +24,9 @@
   def Song.all 
     @@all 
   end
+  
+  def save
+    @@all << self
+  end
     
 end 
